@@ -55,6 +55,20 @@ export default class Geoframe extends React.Component {
     }
   }
 
+  setIframeLoaded = async () => {
+    if (!this.isIframeWithMessagingLoaded) {
+      this.isIframeWithMessagingLoaded = true
+
+      // send command to iframe to let the kesi-iframe script know that it lives in an iframe
+      // this is necessary to active the user position icon, it will only be activated if the page
+      // is used in an iframe
+      const objToSend = {
+        command: 'frameLoaded'
+      }
+      this.sendCommandToIframe(objToSend)
+    }
+  }
+
   sendCommandToIframe = (command) => {
     const iframe = document.getElementById(this.getIframeId())
     console.log('sending command to iframe', command, iframe)
@@ -71,8 +85,13 @@ export default class Geoframe extends React.Component {
       console.log('got message from iframe:', data)
 
       switch (data.command) {
+        // the iframe will ask the wrapper for a location
         case 'getGeolocation':
           this.sendGeolocationToIframe()
+          break
+        // this message will be send when the iframe is "alive" and it will check, if the service is correctly loaded inside of an iframe
+        case 'alive':
+          this.setIframeLoaded()
           break
         default:
           break
