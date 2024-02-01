@@ -1,0 +1,53 @@
+.outer {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  will-change: max-height !important;
+  height: auto;
+  max-height: 0;
+  transition: max-height 5s ease-in-out, padding 100ms ease-in-out, margin 100ms ease-in-out !important;
+}
+
+.author {
+  color: darkgray !important;
+  font-size: 10px !important;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.authorMobile {
+  color: darkgray !important;
+  font-size: 8px !important;
+  line-height: 9px !important;
+  -webkit-margin-after: 5px !important;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.message {
+  font-size: 16px !important;
+}
+
+.messageMobile {
+  font-size: 16px !important;
+}
+
+.date {
+  color: darkgray !important;
+  font-size: 10px !important;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.dateMobile {
+  color: darkgray !important;
+  font-size: 8px !important;
+  line-height: 9px !important;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.answerBlock {
+  margin-top: 5px;
+}

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,9 +13,41 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a45837f-d346-4cf4-a84d-6d33e25d6aab" name="Default Changelist" comment="">
+    <list default="true" id="6a45837f-d346-4cf4-a84d-6d33e25d6aab" name="Default Changelist" comment="added messages to enable user position icon">
+      <change afterPath="$PROJECT_DIR$/src/Helper/ArrayHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/StringHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/TimeoutHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/UrlHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/VideoHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LiveTicker/LiveTicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LiveTicker/LiveTicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LiveTicker/LiveTickerList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LiveTicker/LiveTickerList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LiveTicker/LiveTickerMessage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LiveTicker/LiveTickerMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/MessagingService/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/RegisterInstance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Updater.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Video/Video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FS Me Heavy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FS Me Heavy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FS Me Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FS Me Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FSMe-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FSMe-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FSMe-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FSMe.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FSMe.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/FSMe.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Fedra Book.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/Fedra Medium.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Geoframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geoframe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Geoframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +57,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="RegisterInstance.js" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -29,21 +65,59 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="1lVfEqijgglYr14CFZTBvUCy30m" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="yarn" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/sebastiangraf/Projekte/eqapp-react-geoframe/src/fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/sebastiangraf/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/232.8660.143/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fonts" />
+      <recent name="$PROJECT_DIR$/src/Helper" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/LiveTicker" />
+      <recent name="$PROJECT_DIR$/src/Services" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -56,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -71,8 +146,21 @@
       <workItem from="1607687071321" duration="2227000" />
       <workItem from="1607689532551" duration="631000" />
       <workItem from="1607929474681" duration="390000" />
-      <workItem from="1608023220951" duration="705000" />
+      <workItem from="1608023220951" duration="1882000" />
+      <workItem from="1631629578388" duration="13670000" />
+      <workItem from="1632137693734" duration="194000" />
+      <workItem from="1632206278576" duration="57000" />
+      <workItem from="1634561875847" duration="1000" />
+      <workItem from="1706782395905" duration="7646000" />
     </task>
+    <task id="LOCAL-00001" summary="added messages to enable user position icon">
+      <created>1608024011299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608024011299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,32 +176,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1419" height="205" key="GridCell.Tab.0.bottom" timestamp="1607930358528">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state width="1419" height="205" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1607930358528" />
-    <state width="1419" height="205" key="GridCell.Tab.0.center" timestamp="1607930358527">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state width="1419" height="205" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1607930358527" />
-    <state width="1419" height="205" key="GridCell.Tab.0.left" timestamp="1607930358527">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state width="1419" height="205" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1607930358527" />
-    <state width="1419" height="205" key="GridCell.Tab.0.right" timestamp="1607930358528">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state width="1419" height="205" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1607930358528" />
-    <state x="421" y="161" width="598" height="548" key="find.popup" timestamp="1608023810676">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="421" y="161" width="598" height="548" key="find.popup/0.23.1440.825@0.23.1440.825" timestamp="1608023810676" />
-    <state x="450" y="354" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607687293501">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="450" y="354" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1440.825@0.23.1440.825" timestamp="1607687293501" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added messages to enable user position icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="added messages to enable user position icon" />
   </component>
 </project>

@@ -1,38 +1,186 @@
 .App {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Fedra;
+  src: url('./fonts/Fedra Medium.otf') format('opentype');
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: Fedra;
+  src: url('./fonts/Fedra Book.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: FSMe;
+  font-weight: bold;
+  src: url('./fonts/FSMe-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: FSMe;
+  src: url('./fonts/FSMe.otf') format('opentype');
+}
+
+@font-face {
+  font-family: FSMe;
+  font-weight: bold;
+  src: url('./fonts/FSMe-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: FSMe;
+  font-weight: 900;
+  src: url('./fonts/FS Me Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: FSMe;
+  font-weight: 100;
+  src: url('./fonts/FS Me Light.ttf') format('truetype');
+}
+
+.alarmInactive {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.alarmActive {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #75d13f;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.alarmInfo {
+  display: inline-block;
+  line-height: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-top: 2px;
+  vertical-align: top;
+}
+
+.chat {
+  width: 100%;
+  background-color: #ededed;
+  padding: 5px;
+  @media (min-width: 600px) {
+    padding: 20px;
   }
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.chatMobile {
+  width: 100%;
+  background-color: #ededed;
+  padding: 5px;
+  height: 550px;
 }
 
-.App-link {
-  color: #61dafb;
+.switchColorsDeactivated {
+  color: #535353 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.barColorDeactivated {
+  background-color: #535353 !important;
+}
+
+.downloadButton {
+  margin-right: 5px;
+}
+
+.livetickerList {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 5px;
+}
+
+.outer {
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  will-change: max-height !important;
+  height: auto;
+  max-height: 0;
+  transition: max-height 5s ease-in-out, padding 100ms ease-in-out, margin 100ms ease-in-out !important;
+}
+
+.author {
+  color: darkgray !important;
+  font-size: 10px !important;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.authorMobile {
+  color: darkgray !important;
+  font-size: 8px !important;
+  line-height: 9px !important;
+  -webkit-margin-after: 5px !important;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.message {
+  font-size: 16px !important;
+}
+
+.messageMobile {
+  font-size: 16px !important;
+}
+
+.date {
+  color: darkgray !important;
+  font-size: 10px !important;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.dateMobile {
+  color: darkgray !important;
+  font-size: 8px !important;
+  line-height: 9px !important;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.answerBlock {
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+  color: #b9172f;
+  position: relative;
+  padding: 10px 0 10px 0;
+  font-family: Fedra, serif;
+  line-height: 24px;
+  text-align: left;
+}
+
+p {
+  font-family: FSMe,sans-serif !important;
+  color: #3e4146 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  letter-spacing: .15008px !important;
+  line-height: normal !important;
+  text-align: left !important;
 }

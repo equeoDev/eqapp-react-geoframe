@@ -1,0 +1,55 @@
+.alarmInactive {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.alarmActive {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #75d13f;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.alarmInfo {
+  display: inline-block;
+  line-height: 20px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-top: 2px;
+  vertical-align: top;
+}
+
+.chat {
+  width: 100%;
+  background-color: #ededed;
+  padding: 5px;
+  @media (min-width: 600px) {
+    padding: 20px;
+  }
+  height: 100vh;
+ }
+
+.chatMobile {
+  width: 100%;
+  background-color: #ededed;
+  padding: 5px;
+  height: 100vh;
+}
+
+.switchColorsDeactivated {
+  color: #535353 !important;
+}
+
+.barColorDeactivated {
+  background-color: #535353 !important;
+}
+
+.downloadButton {
+  margin-right: 5px;
+}

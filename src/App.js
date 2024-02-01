@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
-import Geoframe from './Geoframe'
+import Updater from './Updater'
+import KesiTools from 'kesi-iframe-messaging/kesi-tools'
 
 function App() {
 
   return (
     <div className="App">
-      <Geoframe />
+      <Updater />
     </div>
   )
 }
